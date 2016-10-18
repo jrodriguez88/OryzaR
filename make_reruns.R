@@ -1,8 +1,8 @@
-FILEIT = 'VVME.exp'   # Archivo Experimental
-FILEI2 = 'VVME.sol'	  # Archivo Suelo
-FILEI1 = 'FED174.crp'			    # Archivo de Cultivo
+FILEIT = 'VVME.exp'                                         # Archivo Experimental
+FILEI2 = 'VVME.sol'	                                        # Archivo Suelo
+FILEI1 = 'FED174.crp'			                            # Archivo de Cultivo
 CNTR = 'VVME'								                # Nombre de la estacion
-ISTN = 1:99									                  # Escenario Climatico
+ISTN = 1:99									                # Escenario Climatico
 IYEAR =  2016								                # Año inicio Simulacion
 
 # STTIME = 275.								                # Dia de Inicio de Simulacion
