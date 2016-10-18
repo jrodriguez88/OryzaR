@@ -7,11 +7,11 @@ IYEAR =  2016								                # Año inicio Simulacion
 
 # STTIME = 275.								                # Dia de Inicio de Simulacion
 EMD =   seq(215, 300, 5)                      # primer valor fecha de simulacion, segundo valor fin de simulacion
-EMYR =  2016
+EMYR =  2016                                  # Año de Inicio
 
 data_base <- expand.grid(ISTN, EMD, IYEAR)
 
-colnames(data_base) <- c('ISTN', 'EMD', 'IYEAR')
+colnames(data_base) <- c('ISTN', 'EMD', 'IYEAR')   
 head(data_base)
 
 View(data_base)
