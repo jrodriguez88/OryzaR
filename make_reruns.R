@@ -9,7 +9,9 @@ IYEAR =  2016								                # Año inicio Simulacion
 EMD =   seq(215, 300, 5)
 EMYR =  2016
 
+
 data_base <- expand.grid(ISTN, EMD, IYEAR)
+colnames(database)
 head(data_base)
 
 
